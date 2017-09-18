@@ -19,5 +19,3 @@ zabbix自带监控模板监控mysql需要一个用户来获取相关参数的值
     UserParameter=mysql.version,mysql -V
 
 3、关联zabbix server自带mysql模版到相应主机
-
-
