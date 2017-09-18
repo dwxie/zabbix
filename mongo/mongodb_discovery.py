@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#This script is used to discovery disk on the server
+#This script is used to discovery mongo port  server
 
 import subprocess
 import json
