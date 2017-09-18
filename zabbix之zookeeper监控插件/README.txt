@@ -14,9 +14,10 @@
 zk_host = "127.0.0.1"
 zk_client_port = 2181
 (7)在zk主机下，重启zabbix-agent
-
+------------------------------
 
 # zk监控指标说明
+# ------------------------------
 
 zk_server_state || zookeeper角色，字符串类型。
 zk_num_alive_connections || 当前连接数
