@@ -1,21 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# ----------------------------------------------------
-# Purpose:
-#    Zabbix plugin for activemq
-# ----------------------------------------------------
-# @Date    : 2016-11-04 14:17:22
-# @Author  : wye  
-# @Version : v1.0 
-# @DESRC   : activemq global status and queue status 
-#          + for monitor
-# ----------------------------------------------------
-
-#------------------------------
-# Activemq instance parameter
-#------------------------------
-
 ActivemqHost="127.0.0.1"                   # Activemq instance IP Address
 ActivemqConPort="8161"                     # Activemq console port
 ActivemqApiPrefix="/api/jolokia/read/"     # Activemq REST API String
